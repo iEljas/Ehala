@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90B536E62A08D7820065E234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B536E52A08D7820065E234 /* AppDelegate.swift */; };
+		90B536E82A08D7820065E234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B536E72A08D7820065E234 /* SceneDelegate.swift */; };
+		90B536EA2A08D7820065E234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B536E92A08D7820065E234 /* ViewController.swift */; };
+		90B536ED2A08D7820065E234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B536EB2A08D7820065E234 /* Main.storyboard */; };
+		90B536F02A08D7820065E234 /* Ehala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90B536EE2A08D7820065E234 /* Ehala.xcdatamodeld */; };
+		90B536F22A08D7840065E234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B536F12A08D7840065E234 /* Assets.xcassets */; };
+		90B536F52A08D7840065E234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B536F32A08D7840065E234 /* LaunchScreen.storyboard */; };
+		90B537002A08D7850065E234 /* EhalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B536FF2A08D7850065E234 /* EhalaTests.swift */; };
+		90B5370A2A08D7850065E234 /* EhalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B537092A08D7850065E234 /* EhalaUITests.swift */; };
+		90B5370C2A08D7850065E234 /* EhalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5370B2A08D7850065E234 /* EhalaUITestsLaunchTests.swift */; };
+		90BFD9DD2A0B49FA004E64DD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BFD9DC2A0B49FA004E64DD /* SignUpViewController.swift */; };
+		90BFD9DF2A0B4A43004E64DD /* ViewControllerSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BFD9DE2A0B4A43004E64DD /* ViewControllerSignUp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90B536FC2A08D7850065E234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B536DA2A08D7810065E234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B536E12A08D7810065E234;
+			remoteInfo = Ehala;
+		};
+		90B537062A08D7850065E234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B536DA2A08D7810065E234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B536E12A08D7810065E234;
+			remoteInfo = Ehala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90B536E22A08D7820065E234 /* Ehala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ehala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B536E52A08D7820065E234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90B536E72A08D7820065E234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90B536E92A08D7820065E234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90B536EC2A08D7820065E234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90B536EF2A08D7820065E234 /* Ehala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ehala.xcdatamodel; sourceTree = "<group>"; };
+		90B536F12A08D7840065E234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90B536F42A08D7840065E234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90B536F62A08D7840065E234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B536FB2A08D7850065E234 /* EhalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EhalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B536FF2A08D7850065E234 /* EhalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhalaTests.swift; sourceTree = "<group>"; };
+		90B537052A08D7850065E234 /* EhalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EhalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B537092A08D7850065E234 /* EhalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhalaUITests.swift; sourceTree = "<group>"; };
+		90B5370B2A08D7850065E234 /* EhalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90BFD9DC2A0B49FA004E64DD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		90BFD9DE2A0B4A43004E64DD /* ViewControllerSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSignUp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B536DF2A08D7810065E234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B536F82A08D7850065E234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B537022A08D7850065E234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B536D92A08D7810065E234 = {
+			isa = PBXGroup;
+			children = (
+				90B536E42A08D7820065E234 /* Ehala */,
+				90B536FE2A08D7850065E234 /* EhalaTests */,
+				90B537082A08D7850065E234 /* EhalaUITests */,
+				90B536E32A08D7820065E234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90B536E32A08D7820065E234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B536E22A08D7820065E234 /* Ehala.app */,
+				90B536FB2A08D7850065E234 /* EhalaTests.xctest */,
+				90B537052A08D7850065E234 /* EhalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B536E42A08D7820065E234 /* Ehala */ = {
+			isa = PBXGroup;
+			children = (
+				90B536E52A08D7820065E234 /* AppDelegate.swift */,
+				90B536E72A08D7820065E234 /* SceneDelegate.swift */,
+				90B536E92A08D7820065E234 /* ViewController.swift */,
+				90B536EB2A08D7820065E234 /* Main.storyboard */,
+				90BFD9DE2A0B4A43004E64DD /* ViewControllerSignUp.swift */,
+				90BFD9DC2A0B49FA004E64DD /* SignUpViewController.swift */,
+				90B536F12A08D7840065E234 /* Assets.xcassets */,
+				90B536F32A08D7840065E234 /* LaunchScreen.storyboard */,
+				90B536F62A08D7840065E234 /* Info.plist */,
+				90B536EE2A08D7820065E234 /* Ehala.xcdatamodeld */,
+			);
+			path = Ehala;
+			sourceTree = "<group>";
+		};
+		90B536FE2A08D7850065E234 /* EhalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				90B536FF2A08D7850065E234 /* EhalaTests.swift */,
+			);
+			path = EhalaTests;
+			sourceTree = "<group>";
+		};
+		90B537082A08D7850065E234 /* EhalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90B537092A08D7850065E234 /* EhalaUITests.swift */,
+				90B5370B2A08D7850065E234 /* EhalaUITestsLaunchTests.swift */,
+			);
+			path = EhalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B536E12A08D7810065E234 /* Ehala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B5370F2A08D7850065E234 /* Build configuration list for PBXNativeTarget "Ehala" */;
+			buildPhases = (
+				90B536DE2A08D7810065E234 /* Sources */,
+				90B536DF2A08D7810065E234 /* Frameworks */,
+				90B536E02A08D7810065E234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ehala;
+			productName = Ehala;
+			productReference = 90B536E22A08D7820065E234 /* Ehala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90B536FA2A08D7850065E234 /* EhalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B537122A08D7850065E234 /* Build configuration list for PBXNativeTarget "EhalaTests" */;
+			buildPhases = (
+				90B536F72A08D7850065E234 /* Sources */,
+				90B536F82A08D7850065E234 /* Frameworks */,
+				90B536F92A08D7850065E234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90B536FD2A08D7850065E234 /* PBXTargetDependency */,
+			);
+			name = EhalaTests;
+			productName = EhalaTests;
+			productReference = 90B536FB2A08D7850065E234 /* EhalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90B537042A08D7850065E234 /* EhalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B537152A08D7850065E234 /* Build configuration list for PBXNativeTarget "EhalaUITests" */;
+			buildPhases = (
+				90B537012A08D7850065E234 /* Sources */,
+				90B537022A08D7850065E234 /* Frameworks */,
+				90B537032A08D7850065E234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90B537072A08D7850065E234 /* PBXTargetDependency */,
+			);
+			name = EhalaUITests;
+			productName = EhalaUITests;
+			productReference = 90B537052A08D7850065E234 /* EhalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B536DA2A08D7810065E234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					90B536E12A08D7810065E234 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					90B536FA2A08D7850065E234 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 90B536E12A08D7810065E234;
+					};
+					90B537042A08D7850065E234 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 90B536E12A08D7810065E234;
+					};
+				};
+			};
+			buildConfigurationList = 90B536DD2A08D7810065E234 /* Build configuration list for PBXProject "Ehala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90B536D92A08D7810065E234;
+			productRefGroup = 90B536E32A08D7820065E234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B536E12A08D7810065E234 /* Ehala */,
+				90B536FA2A08D7850065E234 /* EhalaTests */,
+				90B537042A08D7850065E234 /* EhalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B536E02A08D7810065E234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B536F52A08D7840065E234 /* LaunchScreen.storyboard in Resources */,
+				90B536F22A08D7840065E234 /* Assets.xcassets in Resources */,
+				90B536ED2A08D7820065E234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B536F92A08D7850065E234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B537032A08D7850065E234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B536DE2A08D7810065E234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B536EA2A08D7820065E234 /* ViewController.swift in Sources */,
+				90B536F02A08D7820065E234 /* Ehala.xcdatamodeld in Sources */,
+				90B536E62A08D7820065E234 /* AppDelegate.swift in Sources */,
+				90B536E82A08D7820065E234 /* SceneDelegate.swift in Sources */,
+				90BFD9DF2A0B4A43004E64DD /* ViewControllerSignUp.swift in Sources */,
+				90BFD9DD2A0B49FA004E64DD /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B536F72A08D7850065E234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B537002A08D7850065E234 /* EhalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B537012A08D7850065E234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B5370C2A08D7850065E234 /* EhalaUITestsLaunchTests.swift in Sources */,
+				90B5370A2A08D7850065E234 /* EhalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90B536FD2A08D7850065E234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90B536E12A08D7810065E234 /* Ehala */;
+			targetProxy = 90B536FC2A08D7850065E234 /* PBXContainerItemProxy */;
+		};
+		90B537072A08D7850065E234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90B536E12A08D7810065E234 /* Ehala */;
+			targetProxy = 90B537062A08D7850065E234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90B536EB2A08D7820065E234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B536EC2A08D7820065E234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90B536F32A08D7840065E234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B536F42A08D7840065E234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90B5370D2A08D7850065E234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90B5370E2A08D7850065E234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B537102A08D7850065E234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ehala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelzhas.Ehala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90B537112A08D7850065E234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ehala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelzhas.Ehala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90B537132A08D7850065E234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelzhas.EhalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ehala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ehala";
+			};
+			name = Debug;
+		};
+		90B537142A08D7850065E234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelzhas.EhalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ehala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ehala";
+			};
+			name = Release;
+		};
+		90B537162A08D7850065E234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelzhas.EhalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ehala;
+			};
+			name = Debug;
+		};
+		90B537172A08D7850065E234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelzhas.EhalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ehala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B536DD2A08D7810065E234 /* Build configuration list for PBXProject "Ehala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B5370D2A08D7850065E234 /* Debug */,
+				90B5370E2A08D7850065E234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B5370F2A08D7850065E234 /* Build configuration list for PBXNativeTarget "Ehala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B537102A08D7850065E234 /* Debug */,
+				90B537112A08D7850065E234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B537122A08D7850065E234 /* Build configuration list for PBXNativeTarget "EhalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B537132A08D7850065E234 /* Debug */,
+				90B537142A08D7850065E234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B537152A08D7850065E234 /* Build configuration list for PBXNativeTarget "EhalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B537162A08D7850065E234 /* Debug */,
+				90B537172A08D7850065E234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90B536EE2A08D7820065E234 /* Ehala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90B536EF2A08D7820065E234 /* Ehala.xcdatamodel */,
+			);
+			currentVersion = 90B536EF2A08D7820065E234 /* Ehala.xcdatamodel */;
+			path = Ehala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90B536DA2A08D7810065E234 /* Project object */;
+}
