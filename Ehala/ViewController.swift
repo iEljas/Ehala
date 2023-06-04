@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
   
-      buttonStart.applyGradient(colors: [UIColor(red: 0.27, green: 0.12, blue:0.66, alpha: 1.00).cgColor, UIColor(red: 0.87, green: 0.02, blue:0.60, alpha: 1.00).cgColor])
+      buttonStart.applyGradient(colors: [UIColor(red: 0.27, green: 0.12, blue:0.66, alpha: 1.00).cgColor, UIColor(red: 0.88, green: 0.03, blue:0.61, alpha: 1.00).cgColor])
     
     }
 }
